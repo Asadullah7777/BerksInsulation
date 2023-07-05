@@ -1,0 +1,42 @@
+/* font for 400 fontwieght */
+@font-face {
+    font-family: Regular;
+    src: url(./font//Rubik-Regular.ttf);
+}
+/* font for 500 fontwieght */
+@font-face {
+    font-family: Medium;
+    src: url(./font/Rubik-Medium.ttf);
+}
+/* font for 600 fontwieght */
+@font-face {
+    font-family: SemiBold;
+    src: url(./font/Rubik-SemiBold.ttf);
+}
+/* font for 700 fontwieght */
+@font-face {
+    font-family: Bold;
+    src: url(./font/Rubik-Bold.ttf);
+}
+/* font for 800 fontwieght */
+@font-face {
+    font-family: ExtraBold;
+    src: url(./font/Rubik-ExtraBold.ttf);
+}
+
+
+.slick-dots li.slick-active button:before{
+    color:#399939 !important;
+    opacity: .8 !important;
+    font-size: 12px !important;
+
+    
+}
+.slick-dots li button:before{
+    font-size: 10px !important;
+    color:#CACACA !important;
+}
+
+.App{
+    margin: 0;
+}
